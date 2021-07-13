@@ -1,0 +1,44 @@
+h1, h3 {
+    text-align: center;
+    font-family: "Nunito";
+}
+
+#score, #score-title {
+    display: inline-block;
+}
+
+#time-title, #time-left {
+    display: inline-block;
+}
+
+.time, .score {
+    position: relative;
+    text-align: center;
+}
+.square {
+    height: 180px;
+    width: 180px;
+    border-style: solid;
+    border-color: rgb(165, 164, 163);
+    background-color: rgb(230, 233, 82);
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    height: 620px;
+    width: 618px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.yellow {
+    background-image: url('yellow.png');
+    background-size: cover;
+}
+
+body {
+    background-color: rgba(255, 255, 0, 0.411);
+}
