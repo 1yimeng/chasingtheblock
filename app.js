@@ -29,7 +29,7 @@ square.forEach(id => {
 
 function moveYellow() {
     let timerid = null
-    timerid = setInterval(randomSquare, 750)
+    timerid = setInterval(randomSquare, 350)
 }
 
 function countDown() {
